@@ -1,0 +1,26 @@
+{
+  "name": "hardhat-template",
+  "description": "这是一个hardhat的基础模板框架",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.1",
+    "@openzeppelin/hardhat-upgrades": "^1.16.0",
+    "chai": "^4.3.6",
+    "hardhat": "^2.8.4",
+    "solidity_lib": "git+ssh://git@202.43.232.79:yuangke-team/soliditylib.git",
+    "web3": "^1.7.0"
+  },
+  "scripts": {
+    "serve": "npx hardhat node > serve.txt",
+    "localhost": "npx hardhat run --network localhost",
+    "testnet": "npx hardhat run --network testnet",
+    "key": "node build.js",
+    "update": "npm install solidity_lib"
+  },
+  "keywords": [],
+  "author": "AEdge",
+  "license": "ISC"
+}
