@@ -10,7 +10,7 @@
     "@openzeppelin/hardhat-upgrades": "^1.16.0",
     "chai": "^4.3.6",
     "hardhat": "^2.8.4",
-    "solidity_lib": "git+ssh://git@113.105.131.133:yuangke-team/soliditylib.git",
+    "solidity_lib": "git+ssh://git@github.com:AEdgejay/ae_sol_lib.git",
     "web3": "^1.7.0"
   },
   "scripts": {

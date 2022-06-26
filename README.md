@@ -4,7 +4,7 @@
 
 已带的插件
 
-[solidityLib](http://202.43.232.79:9099/yuangke-team/soliditylib)
+[ae_sol_lib](https://github.com/AEdgejay/ae_sol_lib)
 
 [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/) (已经包括升级合约)
 
@@ -42,7 +42,7 @@ npm run testnet [文件]
 
 ```
 
-更新solidity_lib
+更新ae_sol_lib
 
 ```bash
 npm run update
